@@ -20,6 +20,7 @@ function myFunctiontext() {
         moreText.style.display = "inline";
     }
 }
+
 function myFunctiontextabout() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("viewmore");
