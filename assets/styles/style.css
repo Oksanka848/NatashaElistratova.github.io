@@ -1,86 +1,85 @@
 @font-face {
-  font-family: "SanghaKali";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"),
-    url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
+    font-family: "SanghaKali";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"), url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
 }
 
 body {
-  background-color: #447695;
-  font-size: 22px;
-  line-height: 1.7em;
-  font-style: italic;
+    background-color: #447695;
+    font-size: 22px;
+    line-height: 1.7em;
+    font-style: italic;
 }
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li a {
-  display: block;
-  padding: 15px;
-  background-color: #447695;
-  color: #bfe6ef;
-  font-size: 36px;
-  font-weight: 200;
-  line-height: 1.4;
+    display: block;
+    padding: 15px;
+    background-color: #447695;
+    color: #bfe6ef;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 1.4;
 }
 li a:hover {
-  color: #eebd6b;
-  text-decoration: none;
+    color: #eebd6b;
+    text-decoration: none;
 }
 
 .header__navigation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .hero-section {
-  height: 95vh;
-  width: 100vw;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
+    height: 95vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 .header__logo {
-  color: #bfe6ef;
-  font-size: 40px;
-  font-weight: 200;
-  line-height: 1.4;
-  text-shadow: 5px 5px 20px #04082e;
-  font-family: "SanghaKali", sans-serif;
-  position: absolute;
-  left: 50px;
-  padding: 15px;
+    color: #bfe6ef;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.4;
+    text-shadow: 5px 5px 20px #04082e;
+    font-family: "SanghaKali", sans-serif;
+    position: absolute;
+    left: 50px;
+    padding: 15px;
 }
 .hero-section__image {
-  height: 100%;
-  width: 100vw;
-  position: absolute;
-  z-index: 1;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
 }
 .hero-section__image img {
-  width: 100%;
-  transform-origin: top;
-  animation: grow infinite;
-  animation-duration: 100s;
-  animation-direction: alternate;
-  animation-timing-function: ease;
+    width: 100%;
+    transform-origin: top;
+    animation: grow infinite;
+    animation-duration: 100s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
 }
 @keyframes grow {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.4);
-  }
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.4);
+    }
 }
 
 .section__legend {
@@ -99,15 +98,18 @@ li a:hover {
 
 
 .body__h2_uppercase {
-  line-height: 2em;
-  font-family: "SanghaKali", sans-serif;
-  font-size: 66px;
-  text-transform: uppercase;
-  text-align: center;
-  font-style: italic;
-  font-weight: 400;
-  margin: 50px;
+    line-height: 2em;
+    font-family: "SanghaKali", sans-serif;
+    font-size: 66px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    margin: 50px;
+    color: #bfe6ef;
 }
+.body__h2_uppercase:hover {
+    color: white;
 
 .servises {
   background-color: #04082e;
@@ -143,5 +145,13 @@ ol a:hover {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+
+
+
+
+=======
+.main-section__legend { background-color: #65b7ce;}
+>>>>>>> ef84b0aefcdbf174f8c73b6ccf076374e875892c
 
 .main-section__legend { background-color: #65b7ce;}
