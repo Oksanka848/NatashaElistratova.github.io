@@ -83,19 +83,19 @@ li a:hover {
 }
 
 .section__legend {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    min-height: 50vh;
-    width: 50vw;
-    text-align: center;
-    margin-top: 40vh;
-
-    color: #bfe6ef;
-    font-style: italic;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 50vh;
+  width: 50%;
+  text-align: center;
+  margin-top: 40vh;
+  color:#04082e;
+  font-style: italic;
 }
+
 
 .body__h2_uppercase {
     line-height: 2em;
@@ -111,89 +111,47 @@ li a:hover {
 .body__h2_uppercase:hover {
     color: white;
 
+.servises {
+  background-color: #04082e;
+  text-align: center;
+  color: #bfe6ef;
 }
-
-.body__h3_uppercase {
-    line-height: 2em;
-    font-family: "SanghaKali", sans-serif;
-    font-size: 42px;
-    text-transform: uppercase;
-    text-align: center;
-    font-style: italic;
-    font-weight: 400;
-    margin: 10px;
+.footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #bfe6ef;
+  font-size: 15px;
+  padding-top: 15px;
+  height: 250px;
+  text-shadow: 5px 5px 20px #04082e;
 }
-
-.body__h3_uppercase:hover {
-    color: white;
-
-}
-
-.servises__image {
-    width: 100%;
-}
-
-.services__container {
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    border-radius: 5px;
-}
-
-.servises__image {
-    width: 50vw;
-}
-.services__container_right {
-    background: linear-gradient(#447695, #65b7ce);
-}
-.services__container_left {
-    background: linear-gradient(#65b7ce, #bfe6ef);
-}
-
-.servises__main-title {
-    padding: 150px;
-}
-
-.servises__text {
-    width: 50vw;
-    padding: 30px;
-    color: #bfe6ef;
-    text-align: center;
-}
-
-.services__button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-    font-style: italic;
-    margin-top: 30px;
-}
-
-.services__button_right {
-    background: linear-gradient(#65b7ce, #bfe6ef);
-    border-radius: 5px;
+.footer-link{
+  color: #bfe6ef;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #bfe6ef;
 
 }
-.services__button_right:hover {
-    box-shadow: 7px 7px #65b7ce;
+.logo_footer{
+  font-family: "SanghaKali", sans-serif;
+  font-size: 40px;
+  padding-top: 5%;
+  text-shadow: 5px 5px 20px #04082e;
+}
+ol a:hover {
+  color: #eebd6b;
+  text-decoration: none;
 }
 
-.services__button_left {
-    background: linear-gradient(#447695, #65b7ce);
-}
-.services__button_left:hover {
-    box-shadow: 7px 7px #447695;
-    border-radius: 5px;
-}
+<<<<<<< HEAD
 
 
 
 
+=======
+.main-section__legend { background-color: #65b7ce;}
+>>>>>>> ef84b0aefcdbf174f8c73b6ccf076374e875892c
 
-
+.main-section__legend { background-color: #65b7ce;}
