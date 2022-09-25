@@ -90,13 +90,13 @@ li a:hover {
   top: 50%;
   transform: translate(-50%, -50%);
   min-height: 50vh;
-  width: 50vw;
+  width: 50%;
   text-align: center;
   margin-top: 40vh;
-
-  color: #bfe6ef;
+  color:#04082e;
   font-style: italic;
 }
+
 
 .body__h2_uppercase {
   line-height: 2em;
@@ -142,3 +142,6 @@ ol a:hover {
   color: #eebd6b;
   text-decoration: none;
 }
+
+
+.main-section__legend { background-color: #65b7ce;}
