@@ -106,10 +106,11 @@ li a:hover {
     font-style: italic;
     font-weight: 400;
     margin: 50px;
-    color: #bfe6ef;
 }
-.body__h2_uppercase:hover {
+.servises__main-title:hover {
     color: white;}
+
+.servises__main-title {color: #bfe6ef;}
 
 .servises {
   background-color: #04082e;
