@@ -154,7 +154,7 @@ li a:hover {
 }
 
 .servises__main-title {
-  padding: 150px;
+  padding-top: 150px;
 }
 
 .servises__text {
@@ -221,4 +221,98 @@ ol a:hover {
 
 .main-section__legend {
   background-color: #65b7ce;
+}
+
+.servises__description {
+  color: #bfe6ef;
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 779px) {
+  body {
+    background-color: #447695;
+    font-size: 18px;
+    line-height: 1em;
+  }
+
+  .header__navigation {
+    display: inline;
+    text-align: end;
+  }
+
+  li a {
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1;
+    margin-right: 5px;
+  }
+
+  .hero-section {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .header__logo {
+    color: #bfe6ef;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1;
+    text-shadow: 5px 5px 20px #04082e;
+    font-family: "SanghaKali", sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 15px;
+  }
+
+  .body__h2_uppercase {
+    line-height: 1.3em;
+    font-size: 34px;
+    padding-top: 30px;
+  }
+
+  .section__legend {
+    width: 70vw;
+  }
+
+  .body__h3_uppercase {
+    line-height: 1em;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .servises__image {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .services__container {
+    display: inline;
+    text-align: center;
+  }
+
+  .servises__text {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .services__button {
+    border: 1px solid #bfe6ef;
+    color: white;
+    padding: 10px 26px;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
+  }
+
+  .about__text {
+    color: #04082e;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
 }
