@@ -106,19 +106,11 @@ li a:hover {
     font-style: italic;
     font-weight: 400;
     margin: 50px;
-    color: #bfe6ef;
-    }
-.body__h2_uppercase:hover {
+}
+.servises__main-title:hover {
     color: white;}
 
-.servises {
-  background-color: #04082e;
-  text-align: center;
-  color: #bfe6ef;
-}
-
-.body__h2_uppercase:hover {
-    color: white;
+.servises__main-title {color: #bfe6ef;}
 
   }
 
@@ -184,8 +176,8 @@ li a:hover {
     .services__button_left:hover {
       box-shadow: 7px 7px #447695;
       border-radius: 5px;
-    }
-.footer {
+}
+.footer{
   text-align: center;
   font-family: sans-serif;
   font-style: italic;
@@ -213,7 +205,5 @@ ol a:hover {
   color: #eebd6b;
   text-decoration: none;
 }
-
-.main-section__legend { background-color: #65b7ce;}
 
 .main-section__legend { background-color: #65b7ce;}
