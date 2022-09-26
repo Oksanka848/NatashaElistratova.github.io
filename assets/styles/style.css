@@ -112,10 +112,70 @@ li a:hover {
 
 .servises__main-title {color: #bfe6ef;}
 
-.servises {
-  background-color: #04082e;
+  }
+
+.body__h3_uppercase { line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
   text-align: center;
-  color: #bfe6ef;
+  font-style: italic;
+  font-weight: 400;
+  margin: 10px;}
+
+  .body__h3_uppercase:hover {
+    color: white;
+
+  }
+
+  .servises__image { width: 100%;}
+  
+  .services__container { 
+      display: flex; 
+      flex-wrap: row wrap; 
+      justify-content: center; 
+      align-items: center; 
+      width: 100vw; 
+      border-radius: 5px;
+    }
+
+
+  
+  .servises__image { width: 50vw;}
+  .services__container_right { background: linear-gradient(#447695, #65b7ce);}
+  .services__container_left { background: linear-gradient(#65b7ce, #bfe6ef);}
+
+  .servises__main-title { padding: 150px;}
+
+  .servises__text { width: 50vw; padding: 30px; 
+    color: #bfe6ef;
+  text-align: center;
+  }
+
+  .services__button { 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px; font-style: italic; margin-top: 30px;}
+
+    .services__button_right { 
+      background: linear-gradient(#65b7ce, #bfe6ef);
+      border-radius: 5px;
+      
+  }
+    .services__button_right:hover {
+      box-shadow: 7px 7px #65b7ce;
+    }
+
+    .services__button_left { 
+      background: linear-gradient(#447695, #65b7ce);
+    }
+    .services__button_left:hover {
+      box-shadow: 7px 7px #447695;
+      border-radius: 5px;
 }
 .footer{
   text-align: center;
