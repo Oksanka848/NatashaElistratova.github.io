@@ -1,85 +1,86 @@
 @font-face {
-    font-family: "SanghaKali";
-    font-style: normal;
-    font-weight: 400;
-    src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"), url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
+  font-family: "SanghaKali";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"),
+    url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
 }
 
 body {
-    background-color: #447695;
-    font-size: 22px;
-    line-height: 1.7em;
-    font-style: italic;
+  background-color: #447695;
+  font-size: 22px;
+  line-height: 1.7em;
+  font-style: italic;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li a {
-    display: block;
-    padding: 15px;
-    background-color: #447695;
-    color: #bfe6ef;
-    font-size: 36px;
-    font-weight: 200;
-    line-height: 1.4;
+  display: block;
+  padding: 15px;
+  background-color: #447695;
+  color: #bfe6ef;
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.4;
 }
 li a:hover {
-    color: #eebd6b;
-    text-decoration: none;
+  color: #eebd6b;
+  text-decoration: none;
 }
 
 .header__navigation {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .hero-section {
-    height: 95vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+  height: 95vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
 .header__logo {
-    color: #bfe6ef;
-    font-size: 40px;
-    font-weight: 200;
-    line-height: 1.4;
-    text-shadow: 5px 5px 20px #04082e;
-    font-family: "SanghaKali", sans-serif;
-    position: absolute;
-    left: 50px;
-    padding: 15px;
+  color: #bfe6ef;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.4;
+  text-shadow: 5px 5px 20px #04082e;
+  font-family: "SanghaKali", sans-serif;
+  position: absolute;
+  left: 50px;
+  padding: 15px;
 }
 .hero-section__image {
-    height: 100%;
-    width: 100vw;
-    position: absolute;
-    z-index: 1;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
 }
 .hero-section__image img {
-    width: 100%;
-    transform-origin: top;
-    animation: grow infinite;
-    animation-duration: 100s;
-    animation-direction: alternate;
-    animation-timing-function: ease;
+  width: 100%;
+  transform-origin: top;
+  animation: grow infinite;
+  animation-duration: 100s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
 }
 @keyframes grow {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.4);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
 }
 
 .section__legend {
@@ -92,92 +93,105 @@ li a:hover {
   width: 50%;
   text-align: center;
   margin-top: 40vh;
-  color:#04082e;
+  color: #04082e;
   font-style: italic;
 }
 
-
 .body__h2_uppercase {
-    line-height: 2em;
-    font-family: "SanghaKali", sans-serif;
-    font-size: 66px;
-    text-transform: uppercase;
-    text-align: center;
-    font-style: italic;
-    font-weight: 400;
-    margin: 50px;
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 66px;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  margin: 50px;
 }
 .servises__main-title:hover {
-    color: white;}
+  color: white;
+}
 
-.servises__main-title {color: #bfe6ef;}
+.servises__main-title {
+  color: #bfe6ef;
+}
 
-  }
-
-.body__h3_uppercase { line-height: 2em;
+.body__h3_uppercase {
+  line-height: 2em;
   font-family: "SanghaKali", sans-serif;
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
   font-style: italic;
   font-weight: 400;
-  margin: 10px;}
-
-  .body__h3_uppercase:hover {
-    color: white;
-
-  }
-
-  .servises__image { width: 100%;}
-  
-  .services__container { 
-      display: flex; 
-      flex-wrap: row wrap; 
-      justify-content: center; 
-      align-items: center; 
-      width: 100vw; 
-      border-radius: 5px;
-    }
-
-
-  
-  .servises__image { width: 50vw;}
-  .services__container_right { background: linear-gradient(#447695, #65b7ce);}
-  .services__container_left { background: linear-gradient(#65b7ce, #bfe6ef);}
-
-  .servises__main-title { padding: 150px;}
-
-  .servises__text { width: 50vw; padding: 30px; 
-    color: #bfe6ef;
-  text-align: center;
-  }
-
-  .services__button { 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px; font-style: italic; margin-top: 30px;}
-
-    .services__button_right { 
-      background: linear-gradient(#65b7ce, #bfe6ef);
-      border-radius: 5px;
-      
-  }
-    .services__button_right:hover {
-      box-shadow: 7px 7px #65b7ce;
-    }
-
-    .services__button_left { 
-      background: linear-gradient(#447695, #65b7ce);
-    }
-    .services__button_left:hover {
-      box-shadow: 7px 7px #447695;
-      border-radius: 5px;
+  margin: 10px;
 }
-.footer{
+
+.body__h3_uppercase:hover {
+  color: white;
+}
+
+.servises__image {
+  width: 100%;
+}
+
+.services__container {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  border-radius: 5px;
+}
+
+.servises__image {
+  width: 50vw;
+}
+.services__container_right {
+  background: linear-gradient(#447695, #65b7ce);
+}
+.services__container_left {
+  background: linear-gradient(#65b7ce, #bfe6ef);
+}
+
+.servises__main-title {
+  padding: 150px;
+}
+
+.servises__text {
+  width: 50vw;
+  padding: 30px;
+  color: #bfe6ef;
+  text-align: center;
+}
+
+.services__button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.services__button_right {
+  background: linear-gradient(#65b7ce, #bfe6ef);
+  border-radius: 5px;
+}
+.services__button_right:hover {
+  box-shadow: 7px 7px #65b7ce;
+}
+
+.services__button_left {
+  background: linear-gradient(#447695, #65b7ce);
+}
+.services__button_left:hover {
+  box-shadow: 7px 7px #447695;
+  border-radius: 5px;
+}
+.footer {
   text-align: center;
   font-family: sans-serif;
   font-style: italic;
@@ -187,15 +201,14 @@ li a:hover {
   height: 250px;
   text-shadow: 5px 5px 20px #04082e;
 }
-.footer-link{
+.footer-link {
   color: #bfe6ef;
   text-decoration: none;
   font-family: sans-serif;
   font-style: italic;
   color: #bfe6ef;
-
 }
-.logo_footer{
+.logo_footer {
   font-family: "SanghaKali", sans-serif;
   font-size: 40px;
   padding-top: 5%;
@@ -206,4 +219,6 @@ ol a:hover {
   text-decoration: none;
 }
 
-.main-section__legend { background-color: #65b7ce;}
+.main-section__legend {
+  background-color: #65b7ce;
+}
