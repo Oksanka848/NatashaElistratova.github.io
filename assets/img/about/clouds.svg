@@ -1,9 +1,9 @@
-<svg width="1440" height="1382" viewBox="0 0 1440 1382" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect opacity="0.57" x="1028.01" y="0.891602" width="944.77" height="354" fill="url(#pattern0)"/>
-<rect opacity="0.67" x="-292.893" y="78.8916" width="639.194" height="459.705" transform="rotate(6.25752 -292.893 78.8916)" fill="url(#pattern1)"/>
-<rect opacity="0.83" width="720" height="518" transform="matrix(-0.998863 0.0476735 0.0476735 0.998863 461.182 684.891)" fill="url(#pattern2)"/>
-<rect opacity="0.75" x="1063.25" y="182.484" width="1083.11" height="778.964" transform="rotate(16.5002 1063.25 182.484)" fill="url(#pattern3)"/>
-<rect opacity="0.9" width="720" height="518" transform="matrix(-0.96125 -0.275679 -0.275679 0.96125 1972.78 883.973)" fill="url(#pattern4)"/>
+<svg width="1440" height="982" viewBox="0 0 1440 982" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect opacity="0.57" x="795.83" y="0.891602" width="784.776" height="251.467" fill="url(#pattern0)"/>
+<rect opacity="0.67" width="530.101" height="327.267" transform="matrix(0.995632 0.0933614 -0.127178 0.99188 -301.379 56.2998)" fill="url(#pattern1)"/>
+<rect opacity="0.83" width="597.888" height="368.119" transform="matrix(-0.999168 0.0407819 0.0557236 0.998446 324.996 486.776)" fill="url(#pattern2)"/>
+<rect opacity="0.75" width="889.883" height="561.482" transform="matrix(0.969381 0.245562 -0.327301 0.94492 825.102 129.887)" fill="url(#pattern3)"/>
+<rect opacity="0.9" width="591.933" height="373.067" transform="matrix(-0.971216 -0.2382 -0.317956 0.948105 1580.61 628.195)" fill="url(#pattern4)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_589_5829" transform="scale(0.000271518 0.000724638)"/>
