@@ -234,7 +234,8 @@ ol a:hover {
   }
 
   li a {
-    display: block;
+    display: inline-block;
+    width: 100vw;
     padding: 5px;
     font-size: 18px;
     line-height: 1;
@@ -280,5 +281,14 @@ ol a:hover {
     height: auto;
     opacity: 0.8;
     cursor: pointer;
+  }
+
+  .main-section__press-reviews_para {
+    margin: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    font-style: italic;
+    font-size: 16px;
   }
 }
