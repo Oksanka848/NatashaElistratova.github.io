@@ -15,18 +15,23 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/styles/style_portfolio.css" />
   </head>
   <body>
     <header>
-        <div>
-          <div class="header__logo">SoSoSo</div> 
+      <div>
+        <div class="header__logo">SoSoSo</div>
         <ul class="header__navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.asp">Contact</a></li>
           <li><a href="about.asp">About</a></li>
-        </ul></div>
+        </ul>
+      </div>
     </header>
     <main>
       <section>
@@ -47,13 +52,15 @@
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
               dolor sit amet.
             </p>
-            
           </div>
-          <button class="button" onclick="myFunctiontext()" id="myBtn">Read more</button>
-          <span id="dots">...</span><span id="more"><div
-            class="main-section__press-reviews_para main-section__press-reviews_para2"
-          >
-            <p>
+          <button class="button" onclick="myFunctiontext()" id="myBtn">
+            Read more
+          </button>
+          <div id="dots">...</div>
+          <div id="more">
+            <p
+              class="main-section__press-reviews_para main-section__press-reviews_para2"
+            >
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
@@ -63,11 +70,9 @@
               invidunt ut labore et dolore magna aliquyam erat, sed diam
               voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.</span>
+              dolor sit amet.
             </p>
-            
           </div>
-         
         </div>
       </section>
       <section>
@@ -116,7 +121,12 @@
               class="closebtn"
               >&times;</span
             >
-            <img id="expandedImg" style="width: 100%" />
+            <img
+              src="/"
+              id="expandedImg"
+              style="width: 100%"
+              alt="large-picture"
+            />
           </div>
         </div>
       </section>
@@ -124,7 +134,10 @@
         <div class="main-section__block main-section__video-player">
           <h2>Video player</h2>
           <video class="main-section__video" controls>
-            <source src="assets/video/pexels-pavel-danilyuk-7352111.mp4" type="video/mp4">
+            <source
+              src="assets/video/pexels-pavel-danilyuk-7352111.mp4"
+              type="video/mp4"
+            />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -245,30 +258,38 @@
         </div>
       </section>
     </main>
-  <footer class="text-center pt-4 pt-md-5 border-top">
-              <div class="footer">
+    <footer class="text-center pt-4 pt-md-5 border-top">
+      <div class="footer">
         <div class="row">
-          <div class="col-12 col-md logo_footer">
-          SoSoSo
-            </div>
+          <div class="col-12 col-md logo_footer">SoSoSo</div>
           <div class="col-12 col-md">
             <ul class="list-unstyled test-small">
-            <ol><a href="about.asp" class="footer-link">About</a></ol>
-              <ol><a href="services.asp" class="footer-link">Services</a></ol>
-              <ol><a href="portfolio.html" class="footer-link">Portfolio</a></ol>
-              <ol><a href="team.asp" class="footer-link">Team</a></ol>
+              <li><a href="about.asp" class="footer-link">About</a></li>
+              <li><a href="services.asp" class="footer-link">Services</a></li>
+              <li>
+                <a href="portfolio.html" class="footer-link">Portfolio</a>
+              </li>
+              <li><a href="team.asp" class="footer-link">Team</a></li>
             </ul>
           </div>
           <div class="col-12 col-md">
             <ul class="list-unstyled test-small">
-              <ol><a href="contact.asp" class="footer-link"><b>Contacts:</b></a></ol>
-              <ol>+79 333 333 333</ol>
-              <ol>info@sososo.ru</ol>
-              <ol><a href="https://www.instagram.com/" class="footer-link">Instagram</a></ol>
+              <li>
+                <a href="contact.asp" class="footer-link"><b>Contacts:</b></a>
+              </li>
+              <li>+79 333 333 333</li>
+              <li>info@sososo.ru</li>
+              <li>
+                <a href="https://www.instagram.com/" class="footer-link"
+                  >Instagram</a
+                >
+              </li>
             </ul>
           </div>
-          </div>
-              </footer>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

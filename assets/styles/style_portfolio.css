@@ -216,7 +216,7 @@ h2 {
   text-shadow: 5px 5px 20px #04082e;
 }
 
-ol a:hover {
+ul a:hover {
   color: #eebd6b;
   text-decoration: none;
 }

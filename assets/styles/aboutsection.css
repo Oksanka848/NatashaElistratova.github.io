@@ -21,17 +21,14 @@
 }
 
 .about__title {
-  grid-column: span 3;
-  grid-row: 1;
   line-height: 2em;
   font-family: "SanghaKali", sans-serif;
   font-size: 3em;
   text-transform: uppercase;
   font-style: italic;
   color: #bfe6ef;
-
   justify-self: center;
-  align-self: baseline;
+  padding: 30px;
 }
 
 .about__text {
