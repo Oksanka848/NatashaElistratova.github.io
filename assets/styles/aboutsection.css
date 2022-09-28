@@ -1,10 +1,10 @@
 .main-about {
   display: grid;
   grid-template-rows: 13% 62% 1fr;
-  grid-template-columns: 2% 20% 60%;
+  grid-template-columns: 3% 20% 60%;
   align-items: center;
   grid-row-gap: 1%;
-  grid-column-gap: 3%;
+  grid-column-gap: 4%;
   margin-bottom: 3%;
   background: url(/assets/img/about/clouds.svg) no-repeat;
   width: 100vw;
@@ -21,7 +21,7 @@
 }
 
 .main-about__title {
-  grid-column: span 3;
+  grid-column: span 4;
   grid-row: 1;
   line-height: 2em;
   font-family: "SanghaKali", sans-serif;
