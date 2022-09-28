@@ -184,7 +184,6 @@ li a:hover {
 }
 .services__button_right:hover {
   box-shadow: 7px 7px #65b7ce;
-
 }
 
 .services__button_left {
@@ -234,7 +233,77 @@ ul a:hover {
   padding-bottom: 80px;
 }
 
-footer { margin-bottom: 150px;}
+footer {
+  margin-bottom: 150px;
+}
+
+/*About*/
+
+.about-section__wrap {
+  width: 100vw;
+
+  background: linear-gradient(#447695, #65b7ce);
+}
+
+.about-section__title {
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #bfe6ef;
+
+  justify-self: stretch;
+  align-self: center;
+}
+
+.about-section__conteiner {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about-section__image {
+  width: 30vw;
+  height: 80vh;
+  margin-bottom: 2%;
+}
+
+.about-section__image img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.about-section__text {
+  font-style: italic;
+  color: rgb(191, 230, 239);
+  width: 60vw;
+  text-align: justify;
+  text-indent: 7%;
+  width: 52vw;
+}
+
+.about-section__button {
+  background: transparent;
+  font-style: inherit;
+  color: rgb(191, 230, 239);
+  text-decoration: none;
+}
+
+.about-section__button:hover {
+  box-shadow: 7px 7px #447695;
+  border-radius: 7px;
+}
+
+.about-section__text a {
+  text-decoration: none;
+}
+
+.about-section__text a:hover {
+  text-decoration: none;
+  color: rgb(191, 230, 239);
+}
 
 @media screen and (max-width: 779px) {
   body {
@@ -315,12 +384,15 @@ footer { margin-bottom: 150px;}
     margin-top: 15px;
   }
 
-  .about__text {
+  .about-section__text {
     color: #04082e;
     display: inline-block;
     width: 100%;
     padding: 20px;
     text-align: center;
+  }
+  .about-section__image {
+    display: none;
   }
 
   .logo_footer {
@@ -330,6 +402,7 @@ footer { margin-bottom: 150px;}
     margin-bottom: 5px;
   }
 
-  footer { margin-bottom: 100px;}
-
+  footer {
+    margin-bottom: 100px;
+  }
 }
