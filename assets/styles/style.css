@@ -49,7 +49,7 @@ li a:hover {
   position: relative;
   text-align: center;
 }
-.header__logo {
+.body__logo {
   color: #bfe6ef;
   font-size: 40px;
   font-weight: 200;
@@ -132,6 +132,7 @@ li a:hover {
 
 .servises__image {
   width: 100%;
+  max-width: 100%;
 }
 
 .services__container {
@@ -154,7 +155,7 @@ li a:hover {
 }
 
 .servises__main-title {
-  padding: 150px;
+  padding-top: 150px;
 }
 
 .servises__text {
@@ -174,6 +175,7 @@ li a:hover {
   font-size: 22px;
   font-style: italic;
   margin-top: 30px;
+  max-width: 100%;
 }
 
 .services__button_right {
@@ -185,10 +187,11 @@ li a:hover {
 }
 
 .services__button_left {
-  background: linear-gradient(#447695, #65b7ce);
+  background: linear-gradient(#65b7ce, #bfe6ef);
+  border-radius: 5px;
 }
 .services__button_left:hover {
-  box-shadow: 7px 7px #447695;
+  box-shadow: 7px 7px #65b7ce;
   border-radius: 5px;
 }
 .footer {
@@ -214,7 +217,7 @@ li a:hover {
   padding-top: 5%;
   text-shadow: 5px 5px 20px #04082e;
 }
-ol a:hover {
+ul a:hover {
   color: #eebd6b;
   text-decoration: none;
 }
@@ -223,15 +226,26 @@ ol a:hover {
   background-color: #65b7ce;
 }
 
+.servises__description {
+  color: #bfe6ef;
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+footer {
+  margin-bottom: 150px;
+}
+
 /*About*/
 
-.about-conteiner {
+.about-section__wrap {
   width: 100vw;
 
   background: linear-gradient(#447695, #65b7ce);
 }
 
-.about-conteiner__title {
+.about-section__title {
   line-height: 2em;
   font-family: "SanghaKali", sans-serif;
   font-size: 3em;
@@ -243,25 +257,25 @@ ol a:hover {
   align-self: center;
 }
 
-.about-wrap {
+.about-section__conteiner {
   display: flex;
 
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.about-conteiner__image {
+.about-section__image {
   width: 30vw;
   height: 80vh;
   margin-bottom: 2%;
 }
 
-.about-conteiner__image img {
+.about-section__image img {
   object-fit: contain;
   width: 100%;
   height: 100%;
 }
-.about-conteiner__text {
+.about-section__text {
   font-style: italic;
   color: rgb(191, 230, 239);
   width: 60vw;
@@ -270,23 +284,125 @@ ol a:hover {
   width: 52vw;
 }
 
-.about__button {
+.about-section__button {
   background: transparent;
   font-style: inherit;
   color: rgb(191, 230, 239);
   text-decoration: none;
 }
 
-.about__button:hover {
+.about-section__button:hover {
   box-shadow: 7px 7px #447695;
   border-radius: 7px;
 }
 
-.about-conteiner__text a {
+.about-section__text a {
   text-decoration: none;
 }
 
-.about-conteiner__text a:hover {
+.about-section__text a:hover {
   text-decoration: none;
   color: rgb(191, 230, 239);
+}
+
+@media screen and (max-width: 779px) {
+  body {
+    background-color: #447695;
+    font-size: 16px;
+    line-height: 1em;
+  }
+
+  .header__navigation {
+    display: inline;
+    text-align: end;
+  }
+
+  li a {
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1;
+    margin-right: 5px;
+  }
+
+  .hero-section {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .body__logo {
+    color: #bfe6ef;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1;
+    text-shadow: 5px 5px 20px #04082e;
+    font-family: "SanghaKali", sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 15px;
+  }
+
+  .body__h2_uppercase {
+    line-height: 1.3em;
+    font-size: 34px;
+    padding-top: 30px;
+  }
+
+  .section__legend {
+    width: 70vw;
+  }
+
+  .body__h3_uppercase {
+    line-height: 1em;
+    font-size: 22px;
+    padding: 10px;
+    color: #bfe6ef;
+  }
+
+  .servises__image {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .services__container {
+    display: inline;
+    text-align: center;
+  }
+
+  .servises__text {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .services__button {
+    border: 1px solid #65b7ce;
+    color: #04082e;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 15px;
+  }
+
+  .about-section__text {
+    color: #04082e;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .about-section__image {
+    display: none;
+  }
+
+  .logo_footer {
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    margin-bottom: 100px;
+  }
 }
