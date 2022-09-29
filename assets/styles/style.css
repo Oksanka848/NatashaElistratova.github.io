@@ -127,13 +127,9 @@ li a:hover {
 }
 
 .body__h3_uppercase:hover {
-  color: white;
+  color: #bfe6ef;
 }
 
-.servises__image {
-  width: 100%;
-  max-width: 100%;
-}
 
 .services__container {
   display: flex;
@@ -144,8 +140,8 @@ li a:hover {
   border-radius: 5px;
 }
 
-.servises__image {
-  width: 50vw;
+.services__image-container { width: 50vw; height: 500px ;}
+.servises__image { width: 100%; height: 100%; object-fit: cover;
 }
 .services__container_right {
   background: linear-gradient(#447695, #65b7ce);
@@ -161,7 +157,7 @@ li a:hover {
 .servises__text {
   width: 50vw;
   padding: 30px;
-  color: #bfe6ef;
+  color: #04082e;
   text-align: center;
 }
 
