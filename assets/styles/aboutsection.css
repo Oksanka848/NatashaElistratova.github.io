@@ -1,6 +1,6 @@
 .main-about {
   display: grid;
-  grid-template-rows: 13% 62% 1fr;
+  grid-template-rows: 13% 62% 20%;
   grid-template-columns: 3% 20% 60%;
   align-items: center;
   grid-row-gap: 1%;
@@ -42,6 +42,7 @@
   text-align: justify;
   text-indent: 5%;
   align-self: baseline;
+  margin-bottom: 2em;
 }
 
 .main-about__image img {
