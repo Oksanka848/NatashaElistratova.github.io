@@ -96,17 +96,25 @@ li a:hover {
 }
 
 .section__legend {
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  min-height: 50vh;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #65b7ce;
+  width: 100vw;
+
+  background: linear-gradient(#447695, #65b7ce);
+}
+
+.legend__title {
+  word-wrap: break-word;
+  color: #04082e;
+  line-height: 5%;
+}
+
+.legend__text {
   text-align: center;
-  margin-top: 40vh;
   color: #04082e;
   font-style: italic;
+  margin: 2vw 15vw 12vw 10vw;
 }
 
 .body__h2_uppercase {
@@ -225,10 +233,6 @@ li a:hover {
 ul a:hover {
   color: #eebd6b;
   text-decoration: none;
-}
-
-.section__legend_wrap {
-  background-color: #65b7ce;
 }
 
 .servises__description {
@@ -352,10 +356,14 @@ footer {
     line-height: 1.3em;
     font-size: 34px;
     padding-top: 30px;
+    text-align: center;
   }
 
+  .section__legend_wrap {
+    width: 100vw;
+  }
   .section__legend {
-    width: 70vw;
+    width: 100vw;
   }
 
   .body__h3_uppercase {
